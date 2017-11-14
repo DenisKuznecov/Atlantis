@@ -1,10 +1,3 @@
-import React, { Component } from 'react';
-import { Text } from 'react-native'
+import Main from './screens';
 
-export default class extends Component {
-  render() {
-    return (
-      <Text>Test</Text>
-    );
-  }
-};
+export default Main;
