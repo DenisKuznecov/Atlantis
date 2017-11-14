@@ -1,4 +1,4 @@
-package com.test_react_native_app;
+package com.atlantis;
 
 import android.app.Application;
 

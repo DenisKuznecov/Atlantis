@@ -1,4 +1,4 @@
-package com.test_react_native_app;
+package com.atlantis;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "test_react_native_app";
+        return "Atlantis";
     }
 }
