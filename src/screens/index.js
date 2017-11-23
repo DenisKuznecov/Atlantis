@@ -12,7 +12,7 @@ export default class Main extends Component {
   setValue = (field, value) => {
     this.setState({
       [field]: value, 
-    });
+    }, () => console.log(this.state.email));
   }
 
   render() {
