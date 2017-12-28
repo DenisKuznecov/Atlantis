@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native'
-
+import { View } from 'react-native'
+import Content from './app';
 export default class extends Component {
   render() {
+    const container = { flex: 1 };
     return (
-      <Text>Test</Text>
+      <View style={container}>
+        <Content />
+      </View>
     );
   }
 };

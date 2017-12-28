@@ -54,4 +54,4 @@
 import { AppRegistry } from 'react-native';
 import App from './src';
 
-AppRegistry.registerComponent('test_react_native_app', () => App);
+AppRegistry.registerComponent('Atlantis', () => App);
